@@ -18,10 +18,9 @@ body {
 /* Style of LOGO */
 .logo-web {
   font-family: "Raleway", sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.166;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   color: var(--pb-color);
 }
@@ -38,53 +37,49 @@ body {
 
 /* Styles of header lincs*/
 .header-links .header-link {
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--dark-color)
 }
 .header-links .header-link:hover,
 .header-links .header-link:focus {
-  color: var(--txt-color);
-}
-.header-links .header-link:active {
   color: var(--pb-color);
 }
 
 /* Styles of header contacts*/
 .header-contacts .header-contact {
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--txt-color);
 }
 .header-contacts .header-contact:hover,
 .header-contacts .header-contact:focus {
-  color: var(--txt-color);
+  color: var(--pb-color);
 }
 
 /* Styles of HERO */
-.h1 {
-  font-style: normal;
-  font-weight: 600;
+.section-hero{
+  background-color: var(--dark-color);
+}
+.title-hero {
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.0714;
   letter-spacing: 0.02em;
-  background-color: var(--dark-color);
   color: var(--additional-color);
 }
 .button-hero {
   background: var(--pb-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-style: normal;
-  font-weight: 600;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.1875;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--additional-color);
   cursor: pointer;
@@ -103,22 +98,28 @@ body {
 }
 
 /* Styles section of scills */
-.h2 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 1.1111;
-  letter-spacing: 0.02em;
+
+.scills-title-visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
-.h3 {
+.scills-title {
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--dark-color);
 }
-.scills-and-team-text {
-  font-style: normal;
+.scills-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -126,19 +127,45 @@ body {
   color: var(--txt-color);
 }
 
-/* section with picture */
-/* (using classes .h2 and h3) */
+/* section with photo */
+.photo-title {
+font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1111;
+  color: var(--dark-color);
+}
 
 /* section with team */
 .section-team {
   background-color: var(--light-color);
 }
+.team-title {
+  font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1111;
+    color: var(--dark-color);
+}
 .unit-of-team {
+  width: 264px;
+    height: 380px;
   background: var(--additional-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+.unit-title{
+font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
+}
+.unit-text{
+font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  color: var(--txt-color);
+}
+
 
 /* section footer */
 .footer {
@@ -146,7 +173,6 @@ body {
 }
 
 .text-of-footer {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -162,8 +188,8 @@ body {
   background: var(--light-color);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  font-style: normal;
-  font-weight: 600;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -179,9 +205,32 @@ body {
   border-radius: 4px;
   color: var(--additional-color);
 }
-
+.portfolio-title-visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .card-portfolio{
     background: var(--additional-color);
     border: 0.5px solid var(--light-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.card-title{
+  font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--dark-color);
+}
+.card-text{
+font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--txt-color);
 }

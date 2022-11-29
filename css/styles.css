@@ -41,7 +41,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--dark-color)
+  color: var(--dark-color);
 }
 .header-links .header-link:hover,
 .header-links .header-link:focus {
@@ -62,7 +62,7 @@ body {
 }
 
 /* Styles of HERO */
-.section-hero{
+.section-hero {
   background-color: var(--dark-color);
 }
 .title-hero {
@@ -129,7 +129,7 @@ body {
 
 /* section with photo */
 .photo-title {
-font-weight: 700;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.1111;
   color: var(--dark-color);
@@ -141,31 +141,30 @@ font-weight: 700;
 }
 .team-title {
   font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1111;
-    color: var(--dark-color);
+  font-size: 36px;
+  line-height: 1.1111;
+  color: var(--dark-color);
 }
 .unit-of-team {
   width: 264px;
-    height: 380px;
+  height: 380px;
   background: var(--additional-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-.unit-title{
-font-weight: 700;
+.unit-title {
+  font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark-color);
 }
-.unit-text{
-font-weight: 400;
+.unit-text {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5px;
+  line-height: 1.5;
   color: var(--txt-color);
 }
-
 
 /* section footer */
 .footer {
@@ -217,19 +216,19 @@ font-weight: 400;
   clip-path: inset(50%);
   margin: -1px;
 }
-.card-portfolio{
-    background: var(--additional-color);
-    border: 0.5px solid var(--light-color);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+.card-portfolio {
+  background: var(--additional-color);
+  border: 0.5px solid var(--light-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.card-title{
+.card-title {
   font-weight: 700;
-    font-size: 20px;
-    line-height: 1.2;
-    color: var(--dark-color);
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
 }
-.card-text{
-font-weight: 400;
+.card-text {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--txt-color);
